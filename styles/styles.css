@@ -1,0 +1,71 @@
+.form-control-lg {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.w-50 {
+    width: 50%; /* Adjust the width as desired */
+    font-size: 20px; /* Increase the font size */
+    padding: 10px 20px; /* Increase the padding */
+}
+label {
+    font-family: cursive;
+}
+.search {
+    margin-top: 100px;
+}
+.thesearch{
+    margin-bottom: 30px;
+}
+.link {
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.link1 {
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.imagesrch{
+    margin-bottom: 25px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.container {
+    margin-top: 20px;
+}
+.search-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.btn-primary {
+    background-color: #4285f4;
+    border-color: #4285f4;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #357ae8;
+    border-color: #357ae8;
+}
+.btn-feeling-lucky {
+    background-color: transparent;
+    border: none;
+    color: #4285f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-feeling-lucky:hover {
+    text-decoration: underline;
+}

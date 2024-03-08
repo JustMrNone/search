@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image Search</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url("./images/gettyimages-1233916768_wide-720ee9992ced3fd03109a4bc88faaf7932226114.jpg");
+            background-size: cover;
+        }
+        
+        /* Targeting the text inside the input field */
+        input[type="text"] {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="./index.html" class="link">Google</a>
+    <a href="./advanced.html" class="link1">Advanced Search</a><br/>
+    
+    <div class="search">
+        <div class="container">
+            <div class="row justify-content-center left">
+                <div class="col-6 text-center">
+                    <img src="./images/Google_photo.png" alt="Google Image" class="img-fluid" style="width: 300px">
+                </div>
+            </div>
+        </div>
+    
+    <h1 class="text-center imagesrch">Google Image Search</h1>
+    <form action="https://www.google.com/search" method="GET" class="text-center">
+        <input type="hidden" name="tbm" value="isch"> <!-- Specify image search -->
+        <input type="hidden" name="hl" value="en"> 
+        <input type="text" name="q" required class="form-control form-control-lg mb-4 mx-auto w-50">
+        
+        <button type="submit" class="btn btn-primary btn-sm w-25 mx-auto">Search</button>
+
+    </form>
+    </div>
+</body>
+</html>
+
